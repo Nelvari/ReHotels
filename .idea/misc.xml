@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/drawable-v24/input_field.xml" value="0.1465" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/drawable/about_background.xml" value="0.1385" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/drawable/account_background.xml" value="0.1385" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/drawable/bottom_background.xml" value="0.1385" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/drawable/button_custom.xml" value="0.1465" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/drawable/color_selector.xml" value="0.1385" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/drawable/ic_arrow_back.xml" value="0.1455" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/drawable/ic_baseline_history_24.xml" value="0.1385" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/drawable/ic_calendar.xml" value="0.1455" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/drawable/ic_home.xml" value="0.1385" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/drawable/ic_location.xml" value="0.1455" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/drawable/ic_padlock.xml" value="0.1385" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/drawable/ic_search.xml" value="0.1385" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/drawable/input_field.xml" value="0.1465" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/drawable/password_selector.xml" value="0.1465" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/drawable/search.xml" value="0.1385" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/drawable/update_background.xml" value="0.1455" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/layout/activity_account.xml" value="0.22685185185185186" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/layout/activity_detail.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/layout/activity_info_history.xml" value="0.27447916666666666" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/layout/activity_main_fragment.xml" value="0.21388888888888888" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/layout/activity_register.xml" value="0.27447916666666666" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/layout/activity_reservasi.xml" value="0.22685185185185186" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/layout/fragment_history.xml" value="0.27447916666666666" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/layout/fragment_home.xml" value="0.21388888888888888" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/layout/list_detail.xml" value="0.27447916666666666" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/layout/list_history.xml" value="0.27447916666666666" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/layout/list_item.xml" value="0.27447916666666666" />
+        <entry key="..\:/AndroidStudioProject/PPB/ReHotels/app/src/main/res/menu/bottom_navigation.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

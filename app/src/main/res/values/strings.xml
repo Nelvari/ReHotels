@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ReHotels</string>
+    <string name="username">Username <font color='red'>*</font></string>
+    <string name="email">Email <font color='red'>*</font></string>
+    <string name="password">Password <font color='red'>*</font></string>
+    <string name="phone">Mobile Number <font color='red'>*</font></string>
+</resources>

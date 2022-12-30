@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_alignParentTop="true"
+            android:id="@+id/rvToolbar"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:background="@color/purple_700"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:id="@+id/tvToolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Account"
+                android:layout_centerHorizontal="true"
+                android:textColor="#fff"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginHorizontal="10dp"
+                android:src="@drawable/ic_arrow_back"
+                app:tint="@android:color/white" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:padding="5dp"
+            android:id="@+id/linearProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rvToolbar"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_field"
+            android:orientation="vertical">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/ivProfile"
+                android:layout_width="125dp"
+                android:layout_height="125dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_below="@id/linearProfile"
+            android:layout_alignStart="@id/linearProfile"
+            android:layout_alignEnd="@id/linearProfile"
+            android:layout_marginTop="10dp"
+            android:background="@color/purple_700"
+            android:textSize="10sp"
+            android:text="Set Image"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnProfile"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input_field"
+            android:hint="@string/username"
+            android:inputType="text"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="12dp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etUsername"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input_field"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="12dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tiPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etEmail"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_field"
+            android:hint="@string/password"
+            app:hintEnabled="false"
+            app:passwordToggleEnabled="true"
+            app:boxBackgroundMode="none"
+            app:passwordToggleDrawable="@drawable/password_selector"
+            app:passwordToggleTint="@color/purple_700">
+
+            <EditText
+                android:padding="10dp"
+                android:hint="@string/password"
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tiPassword"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input_field"
+            android:hint="@string/phone"
+            android:inputType="phone"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="12dp" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/update_background"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@id/etPhone"
+            android:text="Update Profile"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+</ScrollView>

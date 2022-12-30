@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:background="#e7e7e7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rvProfile"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_700">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivProfile"
+                android:layout_width="125dp"
+                android:layout_height="135dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/photo"/>
+
+            <TextView
+                android:id="@+id/tvUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/ivProfile"
+                android:text="Username"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginBottom="10dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rvAccountSet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rvProfile"
+            android:layout_marginTop="25dp"
+            android:background="@android:color/white"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tvSetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="Settings"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/rvAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvSetting"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:paddingHorizontal="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:id="@+id/ivAccount"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/account_background"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_profile" />
+
+                <TextView
+                    android:id="@+id/tvAccount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_toStartOf="@id/ivArrowAccount"
+                    android:layout_toEndOf="@id/ivAccount"
+                    android:text="My Account"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/ivArrowAccount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_arrow" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/ivAccount"
+                    android:layout_marginTop="10dp"
+                    android:layout_toStartOf="@+id/tvAccount"
+                    android:layout_toEndOf="@id/ivArrowAccount"
+                    android:background="@android:color/darker_gray"
+                    android:paddingHorizontal="10dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rvPrivacy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rvAccount"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:paddingHorizontal="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:id="@+id/ivPrivacy"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/privacy_background"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_padlock" />
+
+                <TextView
+                    android:id="@+id/tvPrivacy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_toStartOf="@id/ivArrowPrivacy"
+                    android:layout_toEndOf="@id/ivPrivacy"
+                    android:text="Privacy Policy"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/ivArrowPrivacy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_arrow" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/ivPrivacy"
+                    android:layout_marginTop="10dp"
+                    android:layout_toStartOf="@+id/tvPrivacy"
+                    android:layout_toEndOf="@id/ivArrowPrivacy"
+                    android:background="@android:color/darker_gray"
+                    android:paddingHorizontal="10dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rvAbout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rvPrivacy"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:paddingHorizontal="10dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:id="@+id/ivAbout"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/about_background"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_about" />
+
+                <TextView
+                    android:id="@+id/tvAbout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_toStartOf="@id/ivArrowAbout"
+                    android:layout_toEndOf="@id/ivAbout"
+                    android:text="About Us"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/ivArrowAbout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_arrow" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/ivAbout"
+                    android:layout_marginTop="10dp"
+                    android:layout_toStartOf="@+id/tvAbout"
+                    android:layout_toEndOf="@id/ivArrowAbout"
+                    android:background="@android:color/darker_gray"
+                    android:paddingHorizontal="10dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rvAbout"
+                android:layout_alignParentBottom="true"
+                android:background="@android:color/white"
+                android:padding="10dp"
+                android:text="Log Out"
+                android:textColor="#D40000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rvAbout"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:background="@android:color/white"
+                android:padding="10dp"
+                android:text="ReHotels v1.0"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
